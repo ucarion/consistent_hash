@@ -6,4 +6,4 @@ RSpec::Core::RakeTask.new(:spec)
 
 Rake::ExtensionTask.new('consistent_hash')
 
-task default: :spec
+task default: %i(compile spec)
