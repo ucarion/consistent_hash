@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ConsistentHash::VERSION
   spec.authors       = ["Ulysse Carion"]
   spec.email         = ["ulyssecarion@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A string hash function that returns the same value each time it's called.}
+  spec.summary       = %q{A consistent hash function for strings.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
