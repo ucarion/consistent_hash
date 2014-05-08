@@ -4,6 +4,8 @@ require 'rake/extensiontask'
 
 RSpec::Core::RakeTask.new(:spec)
 
-Rake::ExtensionTask.new('consistent_hash')
+gemspec = eval(File.read('consistent_hash.gemspec'))
+
+Rake::ExtensionTask.new('consistent_hash', gemspec)
 
 task default: %i(compile spec)
