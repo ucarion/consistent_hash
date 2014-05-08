@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ulyssecarion@gmail.com"]
   spec.description   = %q{A string hash function that returns the same value each time it's called.}
   spec.summary       = %q{A consistent hash function for strings.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ucarion/consistent_hash"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
